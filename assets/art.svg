@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Αφηρημένες φόρμες στα χρώματα της Νένας Γρηγοριάδου">
+  <rect width="1000" height="1500" fill="#f7f1e7"/>
+  <g style="mix-blend-mode:multiply">
+    <ellipse cx="330" cy="285" rx="265" ry="235" transform="rotate(-18 330 285)" fill="#efa13c" opacity="0.92"/>
+    <rect x="555" y="55" width="430" height="540" rx="210" fill="#93a894" opacity="0.9"/>
+    <ellipse cx="660" cy="395" rx="190" ry="235" transform="rotate(12 660 395)" fill="#2f4a3a" opacity="0.92"/>
+    <ellipse cx="340" cy="705" rx="305" ry="262" transform="rotate(-8 340 705)" fill="#e88e93" opacity="0.85"/>
+    <ellipse cx="215" cy="845" rx="205" ry="172" transform="rotate(16 215 845)" fill="#d6553a" opacity="0.78"/>
+    <ellipse cx="740" cy="690" rx="235" ry="205" transform="rotate(-14 740 690)" fill="#5f97a0" opacity="0.72"/>
+    <path d="M60 1010 h300 a190 190 0 0 1 190 190 v180 a190 190 0 0 1 -190 190 h-300 a190 190 0 0 1 -190 -190 v-180 a190 190 0 0 1 190 -190 z" fill="#1e3a54" opacity="0.92"/>
+    <ellipse cx="745" cy="1155" rx="285" ry="255" transform="rotate(10 745 1155)" fill="#ee9a2e" opacity="0.93"/>
+    <ellipse cx="520" cy="1290" rx="300" ry="270" transform="rotate(-6 520 1290)" fill="#f4b694" opacity="0.7"/>
+  </g>
+</svg>
