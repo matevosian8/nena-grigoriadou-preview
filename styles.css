@@ -558,7 +558,7 @@ details[open] .chev { transform: rotate(-135deg); }
 @media (max-width: 900px) {
   .split { grid-template-columns: 1fr; }
   .side { position: static; }
-  .portrait img { aspect-ratio: 3 / 2; }
+  .portrait img { aspect-ratio: 4 / 5; max-height: 62svh; object-position: center; }
   .scroll-cue { display: none; }
   .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: clamp(120px, 28vw, 180px); }
   .contact-grid { grid-template-columns: 1fr; }
