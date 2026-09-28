@@ -14,12 +14,17 @@ window.addEventListener('load', () => {
   const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (frames.length < 2 || still) return;
 
+  const hold = (el) => Number(el.dataset.hold) || 5000;
   let i = 0;
-  setInterval(() => {
+
+  const next = () => {
     frames[i].classList.remove('is-on');
     i = (i + 1) % frames.length;
     frames[i].classList.add('is-on');
-  }, 6500);
+    setTimeout(next, hold(frames[i]));
+  };
+
+  setTimeout(next, hold(frames[0]));
 });
 
 const fades = [...document.querySelectorAll('.fade')];
